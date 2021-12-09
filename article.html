@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+       FORMULAIRE ARTICLES
+    </title>
+    <meta charset="UTF-8">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 style=" background:greenyellow ; text-align:center"> ENREGISTREMENT DES ARTICLES</h1>
+    <div class="row mt-4">
+        <form action="insert_article.php" method="post">
+            <div class="row container justify-content-center">
+                <div class="col-6">
+                   
+                     
+                        <div class="form-group">
+                            code article :<br />
+                            <input class="form-control" type="text" name="code_art" value="" />
+                        </div>
+                     
+
+                     
+                        <div class="form-group">
+                           LIBELLE:<br />
+                            <input class="form-control" type="text" name="libelle_art" value="" />
+                        </div>
+                     
+
+                     
+                        <div class="form-group">
+                           PRIX UNITAIRE:<br />
+                            <input class="form-control" type="number" name="PU_art" value="" />
+                        </div>
+                     
+
+                     
+                        <div class="form-group">
+                            QUANTITE:<br />
+                            <input class="form-control" type="number" name="QTE_art" value="" />
+                        </div>
+                     
+
+                   
+
+                     
+                       
+                        <button type="submit" name="enregistrer" value="enregistrer">VALIDER</button>
+                          <!----  <input type="reset" name="Annuler" value="Annuler" />-->
+                      
+                     
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
