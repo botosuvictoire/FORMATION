@@ -10,7 +10,7 @@ try{
     $dbco->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
 catch(PDOException $e){
-        echo 'Impossible de traiter les données. Erreur : '.$e->getMessage();
+        echo 'Impossible de se connecter. Erreur : '.$e->getMessage();
         }
         
         ?>
