@@ -1,5 +1,7 @@
 body {
-    background: #fc9744;
+    background: linear-gradient(to bottom right, rgb(255, 140, 0), white);
+    height: 900px;
+    margin-bottom: 0px;
 }
 
 .box {
