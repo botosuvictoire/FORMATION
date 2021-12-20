@@ -32,6 +32,12 @@ VALUES(?, ?, ?, ?)");
         $util->execute(array($username, $email, 'user', $password));
     } else {
     ?>
+<!-- le conteneur fenêtre -->
+<div class="marquee-rtl">
+    <!-- le contenu défilant -->
+    <div style="margin-top: 15px;font-size:25px; color:green">RESEAU DE GESTION DES GUICHETS DE L'IMPRIMERIE NATIONALE DE CÔTE D'IVOIRE.</div>
+</div>
+
         <form class="box" action="" method="post" autocomplete="off">
             <h1 class="box-logo box-title">
                 GESTION DES TG </h1>
